@@ -3,8 +3,11 @@ sys.path.insert(0, '..')
 import thinkdsp
 from matplotlib import pyplot
 
-print("\nExercise x-y")
+chapter = 0
+exercise = 0
+
+print("\nExercise ",chapter,"-",exercise)
 
 # Exercise code here
 
-print("Exercise x-y complete\n")
+print("Exercise ",chapter,"-",exercise," complete\n")

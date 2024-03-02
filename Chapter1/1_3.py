@@ -3,7 +3,10 @@ sys.path.insert(0, '..')
 import thinkdsp
 from matplotlib import pyplot
 
-print("\nExercise 1-3")
+chapter = 1
+exercise = 3
+
+print("\nExercise ",chapter,"-",exercise)
 
 A440 = thinkdsp.SinSignal(freq=440) + thinkdsp.CosSignal(freq=440)
 WaveA440 = A440.make_wave()
@@ -18,4 +21,4 @@ spectrum = WaveA440.make_spectrum()
 spectrum.plot()
 pyplot.show()
 
-print("Exercise 1-3 complete\n")
+print("Exercise ",chapter,"-",exercise," complete\n")

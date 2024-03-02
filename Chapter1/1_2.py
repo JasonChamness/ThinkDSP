@@ -6,7 +6,10 @@ from matplotlib import pyplot
 # afplay for Mac
 # aplay for Linux (default)
 
-print("\nExercise 1-2")
+chapter = 1
+exercise = 2
+
+print("\nExercise ",chapter,"-",exercise)
 
 Gsharp7M9 = thinkdsp.read_wave('80459__everdream__g7m9no5.wav')
 print("Playing original G#7M9 wave...")
@@ -27,4 +30,4 @@ newG7 = spectrum.make_wave()
 newG7.write('temp_1_2.wav')
 thinkdsp.play_wave(filename='temp_1_2.wav', player='afplay')
 
-print("Exercise 1-2 complete\n")
+print("Exercise ",chapter,"-",exercise," complete\n")

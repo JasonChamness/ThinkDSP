@@ -3,7 +3,10 @@ sys.path.insert(0, '..')
 import thinkdsp
 from matplotlib import pyplot
 
-print("\nExercise 1-4")
+chapter = 1
+exercise = 4
+
+print("\nExercise ",chapter,"-",exercise)
 
 def stretch(wave, factor):
     wave.ts *= factor
@@ -21,4 +24,4 @@ print("Playing G#7M9 wave at 2x speed...")
 Gsharp7M9.write('temp_1_4.wav')
 thinkdsp.play_wave('temp_1_4.wav', player='afplay')
 
-print("Exercise 1-4 complete\n")
+print("Exercise ",chapter,"-",exercise," complete\n")
